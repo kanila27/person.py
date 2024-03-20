@@ -9,7 +9,7 @@ BOT_USERNAME: Final = '@KKanilabot'
 #commands
 async def start_command(update: update, context: contextTypes.DEFAULT_TYPE):
 
-await update.message.reply_text("Hi am kkanila thank you for chatting")
+"await" "update.message.reply_text("Hi am kkanila thank you for chatting)
 
 async def help_command(update: update, context: contextTypes.DEFAULT_TYPE):
 await update.message.reply_text("please type something so that i can respond")
